@@ -16,7 +16,7 @@ public class DiceGame {
       else if (p1.getNum() < p2.getNum()) { 
           p2.getScore();
           System.out.println("Congraturation! "+p2.getName()+" won"); 
-      } 
+      }
       else 
                 System.out.println("draw"); 
 
