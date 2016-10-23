@@ -18,7 +18,7 @@ public class DiceGame {
           System.out.println("Congraturation! "+p2.getName()+" won"); 
       }
       else 
-          System.out.println("draw"); 
+          System.out.println("draw");
 
       }
       public static void main(String[] args){
