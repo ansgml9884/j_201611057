@@ -1,6 +1,6 @@
 class RSPgame{
 
-  void rspGame(String userA, String userB){
+  void play(String userA, String userB){
 
     String a="A is winner!";
     String b="B is winner!";
@@ -28,5 +28,5 @@ class RSPgame{
     } 
    } 
 public static void main(String[] args){
-  new RSPgame().rspGame("rock","paper"); }
+  new RSPgame().play("rock","paper"); }
 }
