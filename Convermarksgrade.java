@@ -1,6 +1,6 @@
 public class Convermarksgrade{
   String grade;
-  String convermarksgrade(double marks){  
+  String convert(double marks){  
     
     if(90<=marks && marks<=100){  
        grade="A";
@@ -19,7 +19,7 @@ public class Convermarksgrade{
   }
 public static void main(String[] args){
   
-  System.out.printf("Your grade is %s",new Convermarksgrade().convermarksgrade(94)); 
+  System.out.printf("Your grade is %s",new Convermarksgrade().convert(94)); 
   
   }
 
